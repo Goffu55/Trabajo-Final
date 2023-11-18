@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 50px 5%;
+    gap: 25px;
+}
+
+.home__title{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 35px;
+
+}
+
+.home__buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.home__button{
+    padding: 10px 30px;
+    background-color: lightgray;
+    color: rgb(31, 31, 31);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
